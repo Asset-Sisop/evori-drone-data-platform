@@ -1,8 +1,29 @@
 # Использованные компоненты и лицензии
 
-- Python / FastAPI — permissive open-source licenses.
-- React / Vite — permissive open-source licenses.
-- Leaflet / Leaflet Draw — permissive open-source licenses.
-- OpenStreetMap tiles/data — использование регулируется условиями OSM; в production необходимо соблюдать attribution и tile usage policy.
+## Application
 
-Перед коммерческим production-развёртыванием необходимо зафиксировать версии зависимостей и провести отдельную юридическую проверку лицензий.
+- Python 3.10+ — PSF License.
+- FastAPI — MIT.
+- Uvicorn — BSD-3-Clause.
+- Pydantic — MIT.
+- python-jose — MIT.
+- passlib — BSD/MIT family; перед production требуется финальная проверка выбранных backend-зависимостей.
+- SQLite — public domain.
+
+## Frontend
+
+- React / React DOM — MIT.
+- Vite — MIT.
+- @vitejs/plugin-react — MIT.
+- Leaflet — BSD-2-Clause.
+- Leaflet Draw — MIT.
+- React Leaflet — BSD-2-Clause.
+- React Leaflet Draw — MIT.
+- GeoTIFF.js — MIT.
+- proj4js — MIT.
+
+## Map data
+
+- OpenStreetMap — данные OSM распространяются на условиях ODbL; необходимо сохранять attribution и соблюдать policy использования тайлов.
+
+Перед коммерческим production-развёртыванием необходимо зафиксировать версии зависимостей и провести отдельную юридическую проверку лицензий и условий внешних сервисов.
