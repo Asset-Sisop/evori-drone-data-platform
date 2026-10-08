@@ -52,3 +52,6 @@ Backend syntax check выполнен локально.
 ## Результат
 
 Репозиторий содержит исходный код, инструкции запуска, архитектуру, матрицу приёмки, demo-сценарий, roadmap и перечень используемых компонентов.
+
+
+CI validation branch: GitHub Actions is expected to validate backend tests and frontend production build before merge.
